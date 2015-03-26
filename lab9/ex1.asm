@@ -1,4 +1,3 @@
-
 fib:	addi $sp, $sp, -8  	# Adjust stack pointer
 	sw $ra, 0($sp)		# Save return address to stack
 	sw $a0, 4($sp)          # Save n to stack
@@ -17,5 +16,11 @@ else2:	addi $a0, 4($sp), -1	# Set arg to n-1
 	jal fib
 	lw $t2, 0($v0)		# Set $t2 to fib(n-1)
 	addi $a0, 4($sp), -2	# Set arg to n-2
+	jal fib
+	lw $t3, 0($v0) 		# Set $t3 to fib(n-2)
+	add $v0, $t1, $t2	# Set return value to fib(n-1) + fib(n-2)
+	lw $ra, 0($sp)		# Reset return address
+	addi $sp, $sp, 8	# Reset stack pointer
+	jr $ra			# Return
 	
 	
