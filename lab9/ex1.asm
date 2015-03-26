@@ -18,3 +18,4 @@ else2:	addi $a0, 4($sp), -1	# Set arg to n-1
 	lw $t2, 0($v0)		# Set $t2 to fib(n-1)
 	addi $a0, 4($sp), -2	# Set arg to n-2
 	
+	
