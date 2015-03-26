@@ -1,3 +1,15 @@
+.data 0x0	
+	newLine: .ascizz "\n"
+	
+main:	j read			# read int
+	
+print:  li $v0, 4 		# Load print syscall
+	syscall			# Print
+
+read:	li $v0, 5		# Load read int syscall
+	syscall			# Read int
+	move $t5, $v0		# Load int in $t5
+
 fib:	addi $sp, $sp, -8  	# Adjust stack pointer
 	sw $ra, 0($sp)		# Save return address to stack
 	sw $a0, 4($sp)          # Save n to stack
@@ -22,5 +34,10 @@ else2:	addi $a0, 4($sp), -1	# Set arg to n-1
 	lw $ra, 0($sp)		# Reset return address
 	addi $sp, $sp, 8	# Reset stack pointer
 	jr $ra			# Return
+
+exit:	move $a0, $zero		# Set arg to 0	
+        j print			# Print arg
+	li $v0, 10		# Load exit syscall
+	syscall			# Exit
 	
-	
+
