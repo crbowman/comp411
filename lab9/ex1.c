@@ -17,5 +17,4 @@ main(){
       o = fibonacci(n);
       printf("%u\n", o);
   } while (n !=0);
-
 }
