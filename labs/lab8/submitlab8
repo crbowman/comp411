@@ -1,0 +1,11 @@
+#!/bin/bash
+
+LABNO=8
+MYID=`id -un`
+MYHOME=/home/fuchs/comp411/$MYID
+DEST=$MYHOME/lab$LABNO
+
+mkdir -p $DEST || echo Error: Could not create folder $DEST... 
+cp ./ex1.c ./ex1.asm ./ex2.c ./ex2.asm $DEST && echo Your work was successfully submitted on `date` || echo Error in copying your work to $DEST...
+
+exit 0
