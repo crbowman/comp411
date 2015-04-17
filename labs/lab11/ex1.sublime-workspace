@@ -1,0 +1,298 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "ex1.c",
+			"settings":
+			{
+				"buffer_size": 343,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bubble_sort.c",
+			"settings":
+			{
+				"buffer_size": 2190,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"pacak",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 521.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/curtis/courses/comp411/labs/lab11/bubble_sort.c",
+		"/home/curtis/dev/clj-algorithms/src/clj_algorithms/trees.clj",
+		"/home/curtis/dev/ulam/src/ulam/prime.clj",
+		"/home/curtis/courses/comp411/labs/lab11/ex1.c",
+		"/home/curtis/dev/ulam/project.clj",
+		"/home/curtis/dev/ulam/src/ulam/core.clj",
+		"/home/curtis/dev/lit-review/main.tex",
+		"/home/curtis/dev/tournamint/sitterson-tour/sitterson-tour/settings/local.py",
+		"/home/curtis/dev/tournamint/sitterson-tour/tour/views.py",
+		"/home/curtis/.zshrc",
+		"/home/curtis/dev/tournamint/sitterson-tour/sitterson-tour/urls.py",
+		"/home/curtis/dev/darkside-project/darkside/darkside/settings/base.py",
+		"/home/curtis/dev/darkside-project/requirements.txt",
+		"/home/curtis/dev/darkside-project/requirements/production.txt",
+		"/home/curtis/dev/darkside-project/darkside/darkside/wsgi.py",
+		"/home/curtis/dev/darkside-project/darkside/darkside/settings/production.py",
+		"/home/curtis/dev/darkside-project/Procfile",
+		"/home/curtis/dev/darkside-project/darkside/darkside/Procfile",
+		"/home/curtis/dev/darkside-project/darkside/main/views.py",
+		"/home/curtis/dev/darkside-project/darkside/darkside/urls.py",
+		"/home/curtis/dev/darkside-project/darkside/templates/home.html",
+		"/home/curtis/dev/darkside-project/.gitignore",
+		"/home/curtis/dev/darkside-project/darkside/darkside/settings/local.py",
+		"/home/curtis/dev/darkside-project/darkside/main/tests.py",
+		"/home/curtis/dev/darkside-project/requirements/local.txt",
+		"/home/curtis/dev/tournamint/sitterson-tour/sitterson-tour/settings/base.py",
+		"/home/curtis/dev/darkside-project/darkside.sublime-workspace",
+		"/home/curtis/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings",
+		"/home/curtis/.config/sublime-text-3/Packages/User/LaTeXTools.sublime-settings",
+		"/home/curtis/dev/cv/main.tex",
+		"/home/curtis/dev/cv/cv.tex",
+		"/home/curtis/dev/lit-review/main"
+	],
+	"find":
+	{
+		"height": 0.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "ex1.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 343,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								116,
+								116
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/C++/C++.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 1,
+					"file": "bubble_sort.c",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2190,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1695,
+								1695
+							]
+						],
+						"settings":
+						{
+							"history_list_is_closing": true,
+							"syntax": "Packages/C++/C++.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 821.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "ex1.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/dev/lit-review/main.tex"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
